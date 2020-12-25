@@ -5,29 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f00e130-2f13-4921-835a-7edd57e966cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/EpplusDemo.Client/CdExcel/CdExcelHeader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EpplusDemo.Client/CdExcel/CdExcelInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EpplusDemo.Client/CdExcel/CdExcelMemberInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EpplusDemo.Client/CdExcel/CdExportAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EpplusDemo.Client/CdExcel/EPPlusExportHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EpplusDemo.Client/ExportTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EpplusDemo.Client/Models/Person.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EpplusDemo.Client/Models/PersonExportModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EpplusDemo.Client/Services/PersonService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EpplusDemo.WebApi/Controllers/DownloadController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EpplusDemo.WebApi/Controllers/WeatherForecastController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EpplusDemo.WebApi/EpplusDemo.WebApi.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EpplusDemo.WebApi/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EpplusDemo.WebApi/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EpplusDemo.WebApi/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EpplusDemo.WebApi/WeatherForecast.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EpplusDemo.WebApi/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EpplusDemo.WebApi/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EpplusDemo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EpplusDemo/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EpplusDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EpplusDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EpplusDemo.Client/EpplusDemo.Client.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EpplusDemo.Client/EpplusDemo.Client.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EpplusDemo.Client/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EpplusDemo.Client/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EpplusDemo.sln" beforeDir="false" afterPath="$PROJECT_DIR$/EpplusDemo.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EpplusDemo.WebApi/Controllers/DownloadController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EpplusDemo.WebApi/Controllers/DownloadController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,10 +34,13 @@
       <option value="$PROJECT_DIR$/EpplusDemo.Client/Services/PersonService.cs" />
       <option value="$PROJECT_DIR$/EpplusDemo.Client/CdExcel/EPPlusExportHelper.cs" />
       <option value="$PROJECT_DIR$/EpplusDemo.WebApi/Properties/launchSettings.json" />
-      <option value="$PROJECT_DIR$/EpplusDemo.WebApi/Controllers/DownloadController.cs" />
-      <option value="$PROJECT_DIR$/EpplusDemo.Client/Program.cs" />
       <option value="$PROJECT_DIR$/EpplusDemo.Client/Models/PersonExportModel.cs" />
+      <option value="$PROJECT_DIR$/EpplusDemo.Shared/Class1.cs" />
+      <option value="$PROJECT_DIR$/EpplusDemo.Shared/CdExcel/EPPlusExportHelper.cs" />
+      <option value="$PROJECT_DIR$/EpplusDemo.Shared/Services/PersonService.cs" />
+      <option value="$PROJECT_DIR$/EpplusDemo.Client/Program.cs" />
       <option value="$PROJECT_DIR$/EpplusDemo.Client/ExportTest.cs" />
+      <option value="$PROJECT_DIR$/EpplusDemo.WebApi/Controllers/DownloadController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1m8Y7TFKsxMYVfd0xJ6V9oVh51C" />
@@ -78,7 +61,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.EpplusDemo.Client">
+  <component name="RunManager" selected=".NET Launch Settings Profile.EpplusDemo.WebApi">
     <configuration name="EpplusDemo.Client" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -137,8 +120,16 @@
       <option name="presentableId" value="Default" />
       <updated>1608876519169</updated>
       <workItem from="1608876529298" duration="7090000" />
-      <workItem from="1608884117024" duration="838000" />
+      <workItem from="1608884117024" duration="2295000" />
     </task>
+    <task id="LOCAL-00001" summary="Add demo">
+      <created>1608885472386</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608885472386</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,5 +149,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Add demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add demo" />
   </component>
 </project>
