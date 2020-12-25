@@ -2,11 +2,11 @@
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
-        <OutputType>Exe</OutputType>
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\EpplusDemo.Shared\EpplusDemo.Shared.csproj" />
+      <PackageReference Include="Bogus" Version="32.0.2" />
+      <PackageReference Include="EPPlus" Version="5.5.0" />
     </ItemGroup>
 
 </Project>

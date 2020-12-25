@@ -6,7 +6,19 @@
     <e p="D:\Project\github.com\EpplusDemo" t="IncludeFlat">
       <e p="EpplusDemo.Client" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="CdExcel" t="Include">
+          <e p="CdExcelHeader.cs" t="Include" />
+          <e p="CdExcelInfo.cs" t="Include" />
+          <e p="CdExcelMemberInfo.cs" t="Include" />
+          <e p="CdExportAttribute.cs" t="Include" />
+          <e p="EPPlusExportHelper.cs" t="Include" />
+        </e>
         <e p="EpplusDemo.Client.csproj" t="IncludeRecursive" />
+        <e p="ExportTest.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="Person.cs" t="Include" />
+          <e p="PersonExportModel.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="net5.0" t="Include">
@@ -15,8 +27,34 @@
           </e>
         </e>
         <e p="Program.cs" t="Include" />
+        <e p="Services" t="Include">
+          <e p="PersonService.cs" t="Include" />
+        </e>
       </e>
       <e p="EpplusDemo.sln" t="IncludeFlat" />
+      <e p="EpplusDemo.WebApi" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="DownloadController.cs" t="Include" />
+          <e p="WeatherForecastController.cs" t="Include" />
+        </e>
+        <e p="EpplusDemo.WebApi.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="EpplusDemo.WebApi.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="WeatherForecast.cs" t="Include" />
+      </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
   </component>

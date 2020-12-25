@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpplusDemo.Client", "EpplusDemo.Client\EpplusDemo.Client.csproj", "{D30B1109-38C1-4FD8-AAC7-CB4E47A8B074}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpplusDemo.WebApi", "EpplusDemo.WebApi\EpplusDemo.WebApi.csproj", "{33C8480A-B2D2-4045-AD96-7E2EDC76AEB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpplusDemo.Shared", "EpplusDemo.Shared\EpplusDemo.Shared.csproj", "{CBAF450C-CEFD-401C-ACCC-6A86E6475ABD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{D30B1109-38C1-4FD8-AAC7-CB4E47A8B074}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D30B1109-38C1-4FD8-AAC7-CB4E47A8B074}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D30B1109-38C1-4FD8-AAC7-CB4E47A8B074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33C8480A-B2D2-4045-AD96-7E2EDC76AEB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33C8480A-B2D2-4045-AD96-7E2EDC76AEB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33C8480A-B2D2-4045-AD96-7E2EDC76AEB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33C8480A-B2D2-4045-AD96-7E2EDC76AEB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBAF450C-CEFD-401C-ACCC-6A86E6475ABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBAF450C-CEFD-401C-ACCC-6A86E6475ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBAF450C-CEFD-401C-ACCC-6A86E6475ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBAF450C-CEFD-401C-ACCC-6A86E6475ABD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
