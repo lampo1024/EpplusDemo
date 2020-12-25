@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.IO;
+using System.Linq;
 using EpplusDemo.Shared.CdExcel;
 using EpplusDemo.Shared.Models;
 using EpplusDemo.Shared.Services;
@@ -15,7 +16,7 @@ namespace EpplusDemo.WebApi.Controllers
             var personService = new PersonService();
             var data = personService.GetPersonList();
             var stream = EPPlusExportHelper.ExportToExcel(data, "个人信息");
-            stream.Position = 0;
+            //stream.Position = 0;
             var contentType = "application/octet-stream";
             var fileName = "个人信息表.xlsx";
             return File(stream, contentType, fileName);
@@ -36,7 +37,8 @@ namespace EpplusDemo.WebApi.Controllers
                 LastName = x.LastName
             }).ToList();
             var stream = EPPlusExportHelper.ExportToExcel(models, "个人信息");
-            stream.Position = 0;
+            // stream.Position = 0;
+            //stream.Seek(0, SeekOrigin.Begin);
             var contentType = "application/octet-stream";
             var fileName = "个人信息表.xlsx";
             return File(stream, contentType, fileName);

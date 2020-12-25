@@ -51,6 +51,7 @@ namespace EpplusDemo.Shared.CdExcel
             }
             var stream = new MemoryStream();
             pck.SaveAs(stream);
+            stream.Position = 0;
             return stream;
         }
         
@@ -76,6 +77,7 @@ namespace EpplusDemo.Shared.CdExcel
             ws.Cells.AutoFitColumns();
             var stream = new MemoryStream();
             pck.SaveAs(stream);
+            stream.Position = 0;
             return stream;
         }
         

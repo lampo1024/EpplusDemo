@@ -16,7 +16,6 @@ namespace EpplusDemo.Client
             var personService = new PersonService();
             var list = personService.GetPersonList();
             var stream = list.ExportToExcel("个人信息");
-            stream.Position = 0;
             var filename = @"D:\epplus-demo-raw-data.xlsx";
             using var fileStream = new FileStream(filename,FileMode.Create,FileAccess.Write);
             stream.CopyTo(fileStream);
@@ -35,7 +34,6 @@ namespace EpplusDemo.Client
                 LastName = x.LastName
             }).ToList();
             var stream = models.ExportToExcel("个人信息");
-            stream.Position = 0;
             var filename = @"D:\epplus-demo-mapper-data.xlsx";
             using var fileStream = new FileStream(filename,FileMode.Create,FileAccess.Write);
             stream.CopyTo(fileStream);
