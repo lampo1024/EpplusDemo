@@ -9,6 +9,10 @@ namespace EpplusDemo.WebApi.Controllers
 {
     public class DownloadController : ControllerBase
     {
+        /// <summary>
+        /// 不使用扩展方法的原始导出方法
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         [Route("download/export_raw_excel")]
         public IActionResult ExportRawExcel()
@@ -16,12 +20,15 @@ namespace EpplusDemo.WebApi.Controllers
             var personService = new PersonService();
             var data = personService.GetPersonList();
             var stream = EPPlusExportHelper.ExportToExcel(data, "个人信息");
-            //stream.Position = 0;
             var contentType = "application/octet-stream";
             var fileName = "个人信息表.xlsx";
             return File(stream, contentType, fileName);
         }
         
+        /// <summary>
+        /// 使用扩展方法的自定义导出
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         [Route("download/export_mapper_excel")]
         public IActionResult ExportExcel()
@@ -37,8 +44,6 @@ namespace EpplusDemo.WebApi.Controllers
                 LastName = x.LastName
             }).ToList();
             var stream = EPPlusExportHelper.ExportToExcel(models, "个人信息");
-            // stream.Position = 0;
-            //stream.Seek(0, SeekOrigin.Begin);
             var contentType = "application/octet-stream";
             var fileName = "个人信息表.xlsx";
             return File(stream, contentType, fileName);

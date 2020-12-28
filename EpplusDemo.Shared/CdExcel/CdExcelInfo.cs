@@ -4,6 +4,10 @@ using System.Reflection;
 
 namespace EpplusDemo.Shared.CdExcel
 {
+    /// <summary>
+    /// EPPlus导出信息初始化类
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class CdExcelInfo<T> where T : class
     {
         public CdExcelInfo(List<T> list)

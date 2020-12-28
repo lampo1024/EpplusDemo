@@ -2,6 +2,9 @@
 
 namespace EpplusDemo.Shared.CdExcel
 {
+    /// <summary>
+    /// 导出表格的特性类
+    /// </summary>
     [AttributeUsage(AttributeTargets.All)]
     public class CdExportAttribute : Attribute
     {
