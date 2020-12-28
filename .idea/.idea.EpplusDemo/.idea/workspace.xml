@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6f00e130-2f13-4921-835a-7edd57e966cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EpplusDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EpplusDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EpplusDemo.Shared/CdExcel/CdExcelInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EpplusDemo.Shared/CdExcel/CdExcelInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EpplusDemo.Shared/CdExcel/CdExportAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EpplusDemo.Shared/CdExcel/CdExportAttribute.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EpplusDemo.Shared/CdExcel/EPPlusExportHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EpplusDemo.Shared/CdExcel/EPPlusExportHelper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EpplusDemo.WebApi/Controllers/DownloadController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EpplusDemo.WebApi/Controllers/DownloadController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +117,8 @@
       <updated>1608876519169</updated>
       <workItem from="1608876529298" duration="7090000" />
       <workItem from="1608884117024" duration="3241000" />
-      <workItem from="1609122629631" duration="2122000" />
+      <workItem from="1609122629631" duration="2387000" />
+      <workItem from="1609135107837" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="Add demo">
       <created>1608885472386</created>
